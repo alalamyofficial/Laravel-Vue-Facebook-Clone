@@ -1,7 +1,7 @@
 <template>
     <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-10 col-lg-offset-1">
+                <div class="col-lg-8 col-lg-offset-1">
                     <div class="card mb-3" v-for="post in posts" :key="post.id">
                         <div class="card-header">
                             <div class="d-flex justify-content-between">

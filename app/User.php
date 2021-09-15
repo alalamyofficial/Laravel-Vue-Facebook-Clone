@@ -6,12 +6,14 @@ use App\Traits\Friendable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Laravel\Scout\Searchable;
 use App\Profile;
 use Storage;
 
 class User extends Authenticatable
 {
-    use Notifiable,Friendable;
+    use Notifiable,Friendable,Searchable;
+    
 
     /**
      * The attributes that are mass assignable.

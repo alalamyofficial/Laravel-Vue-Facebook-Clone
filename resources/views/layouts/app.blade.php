@@ -80,10 +80,14 @@
             </div>
         </nav>
 
+
         <main class="py-4">
             <div class="container">
                 @include('flash::message')  
             </div>
+            @if(Auth::check())
+                <search></search>
+            @endif
             @yield('content') 
             
 

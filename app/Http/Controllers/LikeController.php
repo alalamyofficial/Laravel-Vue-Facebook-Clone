@@ -19,7 +19,7 @@ class LikeController extends Controller
             'post_id' => $post->id
         ]);
 
-        return Like::find($like->id);
+        return Like::find($like->id); //eager loading
     }
 
     public function unlike($id)

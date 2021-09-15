@@ -9,15 +9,17 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.5",
+        "algolia/algoliasearch-client-php": "^3.1",
         "coderello/laraflash": "^3.0",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",
         "guzzlehttp/guzzle": "^7.3",
         "laracasts/flash": "^3.2",
         "laravel/framework": "^7.0",
+        "laravel/scout": "^8.6",
         "laravel/tinker": "^2.0",
         "laravel/ui": "2.4",
-        "pusher/pusher-php-server": "4.1",
+        "pusher/pusher-php-server": "^6.1",
         "sarfraznawaz2005/noty": "^1.1"
     },
     "require-dev": {

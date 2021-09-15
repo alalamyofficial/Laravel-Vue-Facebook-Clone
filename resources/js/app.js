@@ -24,6 +24,8 @@ Vue.filter('moment', function (date) {
     return moment().format('MMMM Do YYYY, h:mm:ss a'); 
 })
 
+
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -40,6 +42,7 @@ Vue.component('friend', require('./components/Friend.vue').default);
 Vue.component('post', require('./components/Post.vue').default);
 Vue.component('feed', require('./components/Feed.vue').default);
 Vue.component('init', require('./components/Init.vue').default);
+Vue.component('search', require('./components/Search.vue').default);
 Vue.component('notification', require('./components/Notification.vue').default);
 
 /**
